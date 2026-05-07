@@ -1,2 +1,2 @@
 # Sudoku
-https://peanuts.fandom.com/es/wiki/Snoopy
+![image]https://peanuts.fandom.com/es/wiki/Snoopy
