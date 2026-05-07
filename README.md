@@ -1,8 +1,6 @@
 # Sudoku
-<p align="center">
-  <img src="https://via.placeholder.com/800x200?text=BANNER+DEL+SUDOKU" alt="Banner de Sudoku">
-</p>
+# Sudoku 🧩
 
-<p align="center">
-  <img src="https://peanuts.fandom.com/es/wiki/Snoopy" width="450" title="Vista previa del juego">
-</p>
+| Menú Principal | Partida en curso |
+| :---: | :---: |
+| <img src="snoopy1.png" width="300" alt="Snoopy menú"> | <img src="snoopy2.png" width="300" alt="Snoopy jugando"> |
