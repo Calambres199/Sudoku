@@ -1,3 +1,1 @@
 # Sudoku
-Integrantes del equipo :
-![Snoopy Banner](https://www.google.com/search?client=firefox-b-e&hs=hfqp&sca_esv=144a354d1415577e&channel=entpr&sxsrf=ANbL-n46gfHveqlE0kNC54Zy1FfIu4SLJA:1778197243045&udm=2&fbs=ADc_l-bpk8W4E-qsVlOvbGJcDwpn60DczFdcvPnuv8WQohHLTcTH442KskDyC74HpRHrYUo8DVh0t739Lf9lSmmVxEUO1C2ltbN4C6Q9LHD8THkgoerCV6C3-v3mXqfV2rMHFfFJ-QF2I9M3LO-QOpj3OEYFUgRKLyPyZv1KzHYc7I6cavBWamNzmSUZ0NEVxB9QxBELckizIYJPA-pihQNd-CQEV21h4pi7Id2pBZN33gXdE5u5goM&q=imagenes+de+snoopy&sa=X&ved=2ahUKEwjMq4z4rKiUAxWglmoFHdhrEFIQtKgLegQIFRAB&biw=1920&bih=963&dpr=1#sv=CAMSVhoyKhBlLUliVThOMENIb012OHpNMg5JYlU4TjBDSG9Ndjh6TToOVDRfN0tKaTRRNVp1aU0gBCocCgZtb3NhaWMSEGUtSWJVOE4wQ0hvTXY4ek0YADABGAcgnJfrlAtKCBABGAEgASgB)
