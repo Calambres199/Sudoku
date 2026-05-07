@@ -4,5 +4,5 @@
 </p>
 
 <p align="center">
-  <img src="tu_imagen_del_juego.png" width="450" title="Vista previa del juego">
+  <img src="https://peanuts.fandom.com/es/wiki/Snoopy" width="450" title="Vista previa del juego">
 </p>
