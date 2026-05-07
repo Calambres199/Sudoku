@@ -1,2 +1,2 @@
 # Sudoku
-![image]https://peanuts.fandom.com/es/wiki/Snoopy
+![Arizbeth]https://peanuts.fandom.com/es/wiki/Snoopy
