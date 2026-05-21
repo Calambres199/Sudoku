@@ -3,7 +3,7 @@ def print_grid(arr):
         for j in range(9):
             print(arr[i][j], end=" ")
         print()
-def se_puede_resolver(tablero):
+def can_be_resolved(tablero):
     for i in range(9):
         for j in range(9):
             num = tablero[i][j]
@@ -72,7 +72,7 @@ def solve_sudoku(arr):
     return False
 
 
-def hay_otra_solucion(original, solucion):
+def there_is_another_solution(original, solucion):
     for i in range(9):
         for j in range(9):
             if original[i][j] == 0:
