@@ -4,18 +4,6 @@ def print_grid(arr):
             print(arr[i][j], end=" ")
         print()
 
-def es_valido(tablero):
-    for i in range(9):
-        for j in range(9):
-            num = tablero[i][j]
-            if num != 0:
-                tablero[i][j] = 0
-                if not check_location_is_safe(tablero, i, j, num):
-                    return False
-                tablero[i][j] = num
-    return True
-    
-
 def find_empty_location(arr, l):
     for row in range(9):
         for col in range(9):
@@ -56,6 +44,18 @@ def check_location_is_safe(arr, row, col, num):
         return True  
     else:
         return False 
+
+def es_valido(tablero):
+    for i in range(9):
+        for j in range(9):
+            num = tablero[i][j]
+            if num != 0:
+                tablero[i][j] = 0
+                if not check_location_is_safe(tablero, i, j, num):
+                    return False
+                tablero[i][j] = num
+    return True
+    
 
 def solve_sudoku(arr):
     l = [0, 0]
