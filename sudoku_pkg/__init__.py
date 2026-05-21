@@ -18,3 +18,16 @@ def used_in_row(arr, row, num):
         if(arr[row][i] == num):
             return True
     return False
+    
+def used_in_col(arr, col, num):
+    for i in range(9):
+        if(arr[i][col] == num):
+            return True
+    return False
+
+def used_in_box(arr, row, col, num):
+    for i in range(3):
+        for j in range(3):
+            if(arr[i + row][j + col] == num):
+                return True
+    return False
