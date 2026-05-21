@@ -31,3 +31,34 @@ def used_in_box(arr, row, col, num):
             if(arr[i + row][j + col] == num):
                 return True
     return False
+
+def check_location_is_safe(arr, row, col, num):
+    condicion1 = not used_in_row(arr, row, num)
+    condicion2 = not used_in_col(arr, col, num)
+
+    inicio_fila = row - (row % 3)
+    inicio_col = col - (col % 3)
+    condicion3 = not used_in_box(arr, inicio_fila, inicio_col, num)
+
+    if condicion1 and condicion2 and condicion3:
+        return True  
+    else:
+        return False 
+
+# ============================================================
+# FUNCIÓN QUE RESUELVE EL SUDOKU (ALGORITMO DE BACKTRACKING)
+# ============================================================
+def solve_sudoku(arr):
+    l = [0, 0]
+    if(not find_empty_location(arr, l)):
+        return True 
+    row = l[0]  
+    col = l[1]  
+    for num in range(1, 10):
+        if(check_location_is_safe(arr, row, col, num)):
+            arr[row][col] = num
+            if(solve_sudoku(arr)):
+                return True
+            arr[row][col] = 0
+    return False
+
