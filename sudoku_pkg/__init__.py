@@ -70,3 +70,20 @@ def solve_sudoku(arr):
                 return True
             arr[row][col] = 0
     return False
+
+
+def hay_otra_solucion(original, solucion):
+    for i in range(9):
+        for j in range(9):
+            if original[i][j] == 0:
+                for num in range(1, 10):
+                    if num != solucion[i][j]:
+                        prueba = [fila[:] for fila in original]
+                        if check_location_is_safe(prueba, i, j, num):
+                            prueba[i][j] = num
+                            if solve_sudoku(prueba):
+                                print("¡Hay otra solución!")
+                                print_grid(prueba)
+                                return True
+    print("No hay otra solución")
+    return False
