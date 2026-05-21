@@ -12,3 +12,9 @@ def find_empty_location(arr, l):
                 l[1] = col
                 return True
     return False
+
+def used_in_row(arr, row, num):
+    for i in range(9):
+        if(arr[row][i] == num):
+            return True
+    return False
