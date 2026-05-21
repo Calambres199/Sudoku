@@ -3,6 +3,18 @@ def print_grid(arr):
         for j in range(9):
             print(arr[i][j], end=" ")
         print()
+def se_puede_resolver(tablero):
+    for i in range(9):
+        for j in range(9):
+            num = tablero[i][j]
+            if num != 0:
+                tablero[i][j] = 0
+                if not check_location_is_safe(tablero, i, j, num):
+                    return False
+                tablero[i][j] = num
+    copia = [fila[:] for fila in tablero]
+    return solve_sudoku(copia)
+    
 
 def find_empty_location(arr, l):
     for row in range(9):
