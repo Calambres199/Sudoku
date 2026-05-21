@@ -61,4 +61,3 @@ def solve_sudoku(arr):
                 return True
             arr[row][col] = 0
     return False
-
