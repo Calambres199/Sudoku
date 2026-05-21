@@ -57,9 +57,6 @@ def check_location_is_safe(arr, row, col, num):
     else:
         return False 
 
-# ============================================================
-# FUNCIÓN QUE RESUELVE EL SUDOKU (ALGORITMO DE BACKTRACKING)
-# ============================================================
 def solve_sudoku(arr):
     l = [0, 0]
     if(not find_empty_location(arr, l)):
