@@ -1,13 +1,4 @@
 import pytest
-
-from sudoku_pkg.sudoku import (
-    print_grid,
-    es_valido,
-    solve_sudoku,
-    there_is_another_solution
-)
-
-import pytest
 from sudoku_pkg.sudoku import (
     es_valido,
     solve_sudoku,
