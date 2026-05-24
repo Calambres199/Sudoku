@@ -3,6 +3,16 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "Sudoku"
+name = "sudoku-resolver"
 version = "0.1.0"
+description = "Resolvedor de Sudoku con algoritmo de backtracking"
+authors = [
+    {name = "Jared Sánchez Martínez"},
+    {name = "Arizbeth Guadalupe Bautista Romero"}
+]
 requires-python = ">=3.8"
+readme = "README.md"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
