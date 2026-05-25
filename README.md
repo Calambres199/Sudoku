@@ -233,21 +233,6 @@ False
 
 ---
 
-# Algoritmo Utilizado
-
-El proyecto utiliza el algoritmo de:
-
-- **Backtracking**
-
-El método consiste en:
-
-1. Buscar una casilla vacía.
-2. Probar números del 1 al 9.
-3. Verificar restricciones.
-4. Continuar recursivamente.
-5. Retroceder si no existe solución válida.
----
-
 # Autores
 Bautista Romero Arizbeth Guadalupe
 S\'anchez Mart\'inez Jared
