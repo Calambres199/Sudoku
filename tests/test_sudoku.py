@@ -1,6 +1,6 @@
 import pytest
 from sudoku_pkg.sudoku import (
-    es_valido,
+    is_valid,
     solve_sudoku,
     there_is_another_solution
 )
@@ -17,7 +17,7 @@ def test_is_valid):
         [0,0,0,4,1,9,0,0,5],
         [0,0,0,0,8,0,0,7,9]
     ]
-    assert es_valido(sudoku) == True
+    assert is_valid(sudoku) == True
 
 def test_solve_sudoku():
     sudoku = [
