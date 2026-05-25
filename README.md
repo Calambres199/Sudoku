@@ -246,6 +246,13 @@ Para ejecutarlas:
 ```
 ---
 
+# Cuaderno interactivo de ejemplos
+El repositorio incluye un cuaderno de Jupyter con distintos ejemplos para aprender a utilizar el paquete:
+
+```bash
+Ejemplos.ipynb
+```
+
 # Autores
 Bautista Romero Arizbeth Guadalupe
 S\'anchez Mart\'inez Jared
