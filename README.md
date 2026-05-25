@@ -54,9 +54,14 @@ El algoritmo de backtracking (búsqueda con retroceso) funciona de la siguiente 
 
 | Función | Descripción |
 |---------|-------------|
-| `solve_sudoku(tablero)` | Resuelve el Sudoku usando backtracking. Modifica el tablero original. |
-| `print_grid(tablero)` | Imprime el tablero en formato legible (9×9). |
-| `es_valido(tablero)` | Verifica si un tablero es válido (sin repeticiones). |
+| `print_grid(arr)` | Imprime el tablero en formato legible 9×9. |
+| `find_empty_location(arr, l)` | Busca la primera celda vacía en el tablero. |
+| `used_in_row(arr, row, num)` | Verifica si un número ya existe en una fila. |
+| `used_in_col(arr, col, num)` | Verifica si un número ya existe en una columna. |
+| `used_in_box(arr, row, col, num)` | Verifica si un número ya existe en una subcuadrícula 3×3. |
+| `check_location_is_safe(arr, row, col, num)` | Verifica si es seguro colocar un número en una celda. |
+| `es_valido(tablero)` | Verifica si un tablero inicial es válido. |
+| `solve_sudoku(arr)` | Resuelve el Sudoku usando backtracking. |
 | `there_is_another_solution(original, solucion)` | Determina si el Sudoku tiene más de una solución. |
 
 ---
