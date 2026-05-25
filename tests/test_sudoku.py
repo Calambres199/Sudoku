@@ -5,7 +5,7 @@ from sudoku_pkg.sudoku import (
     there_is_another_solution
 )
 
-def test_es_valido():
+def test_is_valid):
     sudoku = [
         [5,3,0,0,7,0,0,0,0],
         [6,0,0,1,9,5,0,0,0],
