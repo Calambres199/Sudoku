@@ -84,7 +84,7 @@ Sudoku/
 
 ```
 
-# 📦 Instalación en Google Colab
+# Instalación 
 
 ## 1. Clonar el repositorio
 
@@ -110,7 +110,7 @@ Sudoku/
 
 ---
 
-# 🚀 Uso del paquete
+# Uso del paquete
 
 ## Importar funciones
 
@@ -125,7 +125,7 @@ from sudoku_pkg.sudoku import (
 
 ---
 
-# 🧩 Ejemplo de Sudoku
+# Ejemplo de Sudoku
 
 Los ceros representan casillas vacías.
 
@@ -145,7 +145,7 @@ sudoku = [
 
 ---
 
-# ✅ Verificar si el Sudoku es válido
+# Verificar si el Sudoku es válido
 
 ```python
 is_valid(sudoku)
@@ -159,7 +159,7 @@ True
 
 ---
 
-# 🧠 Resolver el Sudoku
+# Resolver el Sudoku
 
 ```python
 solve_sudoku(sudoku)
@@ -167,7 +167,7 @@ solve_sudoku(sudoku)
 
 ---
 
-# 🖨️ Mostrar solución
+# Mostrar solución
 
 ```python
 print_grid(sudoku)
@@ -189,7 +189,7 @@ Salida:
 
 ---
 
-# 🔍 Verificar si existe otra solución
+# Verificar si existe otra solución
 
 ```python
 there_is_another_solution(original, sudoku)
@@ -204,7 +204,7 @@ False
 
 ---
 
-# ❌ Ejemplos de Sudokus inválidos
+# Ejemplos de Sudokus inválidos
 
 El paquete detecta automáticamente:
 
@@ -233,7 +233,7 @@ False
 
 ---
 
-# 📚 Algoritmo Utilizado
+# Algoritmo Utilizado
 
 El proyecto utiliza el algoritmo de:
 
@@ -246,18 +246,10 @@ El método consiste en:
 3. Verificar restricciones.
 4. Continuar recursivamente.
 5. Retroceder si no existe solución válida.
-
 ---
 
-# 📖 Referencias
-
-- Cormen, T. H. et al. *Introduction to Algorithms*. MIT Press.
-- Russell, S. & Norvig, P. *Artificial Intelligence: A Modern Approach*.
-- Knuth, D. E. *The Art of Computer Programming*.
-- Goodrich, M. et al. *Data Structures and Algorithms in Python*.
-
----
-
-# 👨‍💻 Autor
+# Autores
+Bautista Romero Arizbeth Guadalupe
+S\'anchez Mart\'inez Jared
 
 Proyecto desarrollado en Python para resolver Sudokus mediante técnicas de búsqueda y validación lógica.
