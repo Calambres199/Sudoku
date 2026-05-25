@@ -45,7 +45,7 @@ def check_location_is_safe(arr, row, col, num):
     else:
         return False 
 
-def es_valido(tablero):
+def is_valid(tablero):
     for i in range(9):
         for j in range(9):
             num = tablero[i][j]
