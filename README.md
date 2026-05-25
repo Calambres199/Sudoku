@@ -82,7 +82,7 @@ Sudoku/
 ├── README.md
 └── pyproject.toml
 
----
+```
 
 # 📦 Instalación en Google Colab
 
