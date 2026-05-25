@@ -230,7 +230,20 @@ Salida:
 ```python
 False
 ```
+# Pruebas Pytest
 
+El proyecto también incluye pruebas automáticas usando `pytest`.
+
+```bash
+test_sudoku.py
+```
+
+Para ejecutarlas:
+
+```python
+!pip install pytest
+!pytest
+```
 ---
 
 # Autores
