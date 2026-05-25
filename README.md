@@ -81,3 +81,183 @@ Sudoku/
 ├── Ejemplos.ipynb
 ├── README.md
 └── pyproject.toml
+
+---
+
+# 📦 Instalación en Google Colab
+
+## 1. Clonar el repositorio
+
+```python
+!git clone https://github.com/Calambres199/Sudoku
+```
+
+---
+
+## 2. Entrar a la carpeta del proyecto
+
+```python
+%cd Sudoku
+```
+
+---
+
+## 3. Instalar el paquete
+
+```python
+!pip install .
+```
+
+---
+
+# 🚀 Uso del paquete
+
+## Importar funciones
+
+```python
+from sudoku_pkg.sudoku import (
+    is_valid,
+    solve_sudoku,
+    there_is_another_solution,
+    print_grid
+)
+```
+
+---
+
+# 🧩 Ejemplo de Sudoku
+
+Los ceros representan casillas vacías.
+
+```python
+sudoku = [
+    [5,3,0,0,7,0,0,0,0],
+    [6,0,0,1,9,5,0,0,0],
+    [0,9,8,0,0,0,0,6,0],
+    [8,0,0,0,6,0,0,0,3],
+    [4,0,0,8,0,3,0,0,1],
+    [7,0,0,0,2,0,0,0,6],
+    [0,6,0,0,0,0,2,8,0],
+    [0,0,0,4,1,9,0,0,5],
+    [0,0,0,0,8,0,0,7,9]
+]
+```
+
+---
+
+# ✅ Verificar si el Sudoku es válido
+
+```python
+is_valid(sudoku)
+```
+
+Salida esperada:
+
+```python
+True
+```
+
+---
+
+# 🧠 Resolver el Sudoku
+
+```python
+solve_sudoku(sudoku)
+```
+
+---
+
+# 🖨️ Mostrar solución
+
+```python
+print_grid(sudoku)
+```
+
+Salida:
+
+```python
+5 3 4 6 7 8 9 1 2
+6 7 2 1 9 5 3 4 8
+1 9 8 3 4 2 5 6 7
+8 5 9 7 6 1 4 2 3
+4 2 6 8 5 3 7 9 1
+7 1 3 9 2 4 8 5 6
+9 6 1 5 3 7 2 8 4
+2 8 7 4 1 9 6 3 5
+3 4 5 2 8 6 1 7 9
+```
+
+---
+
+# 🔍 Verificar si existe otra solución
+
+```python
+there_is_another_solution(original, sudoku)
+```
+
+Salida esperada:
+
+```python
+No hay otra solución
+False
+```
+
+---
+
+# ❌ Ejemplos de Sudokus inválidos
+
+El paquete detecta automáticamente:
+
+- Repeticiones en filas
+- Repeticiones en columnas
+- Repeticiones en subcuadrículas
+
+Ejemplo:
+
+```python
+sudoku = [
+    [5,5,0,0,7,0,0,0,0],
+    ...
+]
+```
+
+```python
+is_valid(sudoku)
+```
+
+Salida:
+
+```python
+False
+```
+
+---
+
+# 📚 Algoritmo Utilizado
+
+El proyecto utiliza el algoritmo de:
+
+- **Backtracking**
+
+El método consiste en:
+
+1. Buscar una casilla vacía.
+2. Probar números del 1 al 9.
+3. Verificar restricciones.
+4. Continuar recursivamente.
+5. Retroceder si no existe solución válida.
+
+---
+
+# 📖 Referencias
+
+- Cormen, T. H. et al. *Introduction to Algorithms*. MIT Press.
+- Russell, S. & Norvig, P. *Artificial Intelligence: A Modern Approach*.
+- Knuth, D. E. *The Art of Computer Programming*.
+- Goodrich, M. et al. *Data Structures and Algorithms in Python*.
+
+---
+
+# 👨‍💻 Autor
+
+Proyecto desarrollado en Python para resolver Sudokus mediante técnicas de búsqueda y validación lógica.
